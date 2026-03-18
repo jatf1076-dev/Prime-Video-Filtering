@@ -48,14 +48,14 @@
 ! Movies: abgqa65 / TV Shows: abepmbf, abgarbv / Future: covered by wildcards
 ! NOTE: cf-timedtext.aux.pv-cdn.net is explicitly allowed above
 ||*.vod-dash.main.amazon.pv-cdn.net^$dnsrewrite=0.0.0.0
-||*.pop-vod-dash.main.amazon.pv-cdn.net^$dnsrewrite=0.0.0.0
-||*.ta.vod-dash.main.amazon.pv-cdn.net^$dnsrewrite=0.0.0.0
-||*.ta.pop-vod-dash.main.amazon.pv-cdn.net^$dnsrewrite=0.0.0.0
-||*.emt-cf.live.pv-cdn.net^$dnsrewrite=0.0.0.0
-||emt-fastly.live.pv-cdn.net^$dnsrewrite=0.0.0.0
-||abgqa65*.pv-cdn.net^$dnsrewrite=0.0.0.0
-||abepmbf*.pv-cdn.net^$dnsrewrite=0.0.0.0
-||abgarbv*.pv-cdn.net^$dnsrewrite=0.0.0.0
+!||*.pop-vod-dash.main.amazon.pv-cdn.net^$dnsrewrite=0.0.0.0
+!||*.ta.vod-dash.main.amazon.pv-cdn.net^$dnsrewrite=0.0.0.0
+!||*.ta.pop-vod-dash.main.amazon.pv-cdn.net^$dnsrewrite=0.0.0.0
+!||*.emt-cf.live.pv-cdn.net^$dnsrewrite=0.0.0.0
+!||emt-fastly.live.pv-cdn.net^$dnsrewrite=0.0.0.0
+!||abgqa65*.pv-cdn.net^$dnsrewrite=0.0.0.0
+!||abepmbf*.pv-cdn.net^$dnsrewrite=0.0.0.0
+!||abgarbv*.pv-cdn.net^$dnsrewrite=0.0.0.0
 
 ! --- 6. AD IMAGES ---
 ||images-na.ssl-images-amazon.com/images/S/pv-target-images^$dnsrewrite=0.0.0.0
