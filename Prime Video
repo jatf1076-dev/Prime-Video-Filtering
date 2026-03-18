@@ -59,7 +59,7 @@
 
 ! --- 6. AD IMAGES ---
 ||images-na.ssl-images-amazon.com/images/S/pv-target-images^$dnsrewrite=0.0.0.0
-||m.media-amazon.com/images/S/pv-target-images^$dnsrewrite=0.0.0.0
+||m.media-amazon.com/images/S/pv-target-images*^$dnsrewrite=0.0.0.0
 ||m.media-amazon.com/images/S/al-na-*^$dnsrewrite=0.0.0.0
 
 ! --- 7. AD ORCHESTRATION ---
